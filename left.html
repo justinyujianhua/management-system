@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN" manifest="cache.manifest">
+  <head>
+  	<title>人力资源系统管理界面</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+        <style type="text/css">
+ body {
+        margin-left: 30px;
+        margin-top: 30px;
+        background: url(img/debg.png)repeat;
+        display: block;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+      .nav-header{
+        font-size: 16px;
+      }
+      #menu li a{
+        color: #1abc9c;
+        text-shadow:none;
+      }
+      .sidebar-nav{
+        background:url(img/menubg.png);
+        width: 300px;
+      }
+      .nav-header{
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+  	 <div class="container">
+      <div class="row">
+        <div class="span3">
+          <div class="well sidebar-nav">
+            <ul class="nav nav-list" id="menu">
+              <li class="nav-header"> 系统菜单</li><br>
+              <li><a href="right.html" target="mainFrame"><i class="icon-th-large icon-white"></i>  部门类型管理</a></li>
+              <li><a href="right-bumen.html" target="mainFrame"><i class="icon-home icon-white"></i> 部门管理</a></li>
+              <li><a href="right-yuangong.html"target="mainFrame"><i class="icon-user icon-white"></i> 员工管理</a></li>
+              <li><a href="right-xiugai.html" target="mainFrame"><i class="icon-wrench icon-white"></i> 修改管理员密码</a></li>
+            </ul>
+          </div><!--/.well -->
+        </div><!--/span-->
+     </div><!--/row-->
+  </body>
+  </html>

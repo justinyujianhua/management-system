@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN" manifest="cache.manifest">
+  <head>
+    <title>人力资源系统管理界面</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <style type="text/css">
+ body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+        background: url(img/debg.png)repeat;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+      .nav-header{
+        font-size: 16px;
+      }
+      #menu li a{
+        color: #1abc9c;
+        text-shadow:none;
+      }
+      .sidebar-nav{
+        background:url(img/menubg.png);
+      }
+      .nav-header{
+        color: white;
+      }
+    </style>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid"style="background:#34495e;">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="#" style="color:#fff;">Hugehard 人力资源部</a>
+          <div class="nav-collapse collapse">
+            
+            <ul class="nav pull-right">
+              <li class="active"><a href="main.html" target="mainFrame">返回首页</a></li>
+              <li><a href="index.html" target="_parent">退出系统</a></li>
+            </ul>
+            <p class="navbar-text pull-right">
+              欢迎 <a href="#" class="navbar-link">Username</a> &nbsp
+            </p>
+
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

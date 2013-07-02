@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-CN" manifest="cache.manifest">
+  <head>
+    <title>人力资源系统管理界面</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/buttons.css" rel="stylesheet" media="screen">
+    <style type="text/css">
+ body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+        width: 674px;
+        height: 558px;
+        background:url(img/debg.png);
+      }  
+  div{
+    color: white;
+  }
+    textarea{
+      margin-left: 50px;
+      height: 260px;
+      width: 250px;
+    }
+    #departmentType{
+      margin-left: 12px;
+      margin-top: 50px;
+      width: 250px;
+    }
+    .form-horizontal{
+      background: url(img/imac1.png);
+      width: 802px;
+      height: 650px;
+    }
+    .btn-group{
+      margin-left:20px;
+      margin-top: 15px;
+    }
+    .dname{
+      margin-top: 20px;
+      margin-left: 70px;
+      float: left;
+    }
+    #btn1{
+      display: block;
+      margin-left: 20px;
+      margin-top: -10px;
+      width: 120px;
+      text-decoration: none;
+      float: left;
+    }
+    .title{
+      color: white;
+      text-align: center;
+      padding-top: 3px;
+    }
+    .dname1{
+      margin-left:250px;
+      margin-top: 5px;
+      float: left; 
+    }
+    #Name{
+      margin-left: 20px;
+    }
+    .dname2{
+      margin-left:250px;
+      margin-top: 20px;
+      padding-right: 50px;
+      float: left;
+    }
+    .rad{
+      margin-top: 15px;
+    }
+    .dname3{
+      margin-top: 30px;
+      float: left;
+      margin-left: -82px;
+    }
+    #birthday{
+      margin-top: 0px;
+      margin-left: 15px;
+    }
+    .dname4{
+      margin-top: 30px;
+      float: left;
+      margin-left: 250px;
+    }
+    #contact{
+     margin-left: 15px;
+    }
+    .dname5{
+      margin-top: 30px;
+      float: left;
+      margin-left: 250px;
+    }
+    #che{
+      margin-top: -25px;
+      margin-left: 90px;
+    }
+    #btn1{
+      margin-top: 90px;
+      margin-left: -180px;
+    }
+    </style>
+  </head>
+  <body>    
+   <form class="form-horizontal">
+        <h4 class="title">新增员工管理</h4>
+  <div class="control-group">
+   
+    <div class="controls">
+      <div class="dname">
+        所在部门
+      </div>
+      
+    <div class="btn-group">
+              
+         <select>
+          <option>技术部</option>
+          <option>设计部</option>
+          <option>人力部</option>
+         </select>
+      
+    </div><!-- /btn-group -->
+    </div><!--controls-->
+  </div><!--control-group-->
+
+  <div class="dname1">员工姓名</div>
+  <input type="text" id="Name" placeholder="Name"/>
+ 
+ <div class="dname2">性&nbsp别</div>
+ <div class="rad">
+  <input type="radio" id="sex" name="sexy">&nbsp男
+  <input type="radio" id="sex" name="sexy">&nbsp女
+ </div>
+ 
+
+ <div class="dname3">出生日期
+ <input type="text" id="birthday" placeholder="BirthDate"/>
+ </div>
+
+ <div class="dname4">联系方式
+ <input type="text" id="contact" placeholder="Tel"/>
+ </div>
+
+<div class="dname5">爱好
+<div id="che">
+<input type="checkbox" name="check">&nbsp&nbsp看书
+<input type="checkbox" name="check">&nbsp&nbsp电影
+<input type="checkbox" name="check">&nbsp&nbsp游泳
+</div>
+</div>
+
+
+  <div class="control-group">
+    <div class="controls">
+    <a href="#" id="btn1"class="button button-rounded button-flat-caution button-large">添加新员工</a>
+    </div>
+  </div>
+ 
+</form>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

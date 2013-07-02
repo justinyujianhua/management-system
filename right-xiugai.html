@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN" manifest="cache.manifest">
+  <head>
+    <title>人力资源系统管理界面</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/buttons.css" rel="stylesheet" media="screen">
+    <style type="text/css">
+ body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+        width: 674px;
+        height: 558px;
+        background:url(img/debg.png);
+      }  
+    textarea{
+      margin-left: 50px;
+      height: 260px;
+      width: 250px;
+    }
+    #password{
+      margin-left: 40px;
+      margin-top: 90px;
+      width: 250px;
+    }
+    .form-horizontal{
+      background: url(img/imac1.png);
+      width: 802px;
+      height: 650px;
+    }
+    .dname{
+      margin-left: 40px;
+      margin-top: 90px;
+      color: white;
+      float: left;
+    }
+    .dname1{
+      margin-left: 40px;
+      margin-top: 50px;
+    }
+    #confirmpwd{
+      margin-left: 10px;
+      width: 250px;
+    }
+    #btn1{
+      display: block;
+      margin-left: 140px;
+      margin-top: 40px;
+      width: 120px;
+      text-decoration: none;
+      float: left;
+    }
+    .controls{
+      color: white;
+    }
+    .title{
+      color: white;
+      text-align: center;
+      padding-top: 3px;
+    }
+    </style>
+  </head>
+  <body>
+   <form class="form-horizontal">
+     <h4 class="title">修改管理员密码</h4>
+  <div class="control-group">
+    <div class="controls">
+      <div class="dname">
+        新密码:
+      </div>
+      
+    <input type="text" id="password" placeholder="PassWord ">
+    </div>
+  </div>
+
+
+  <div class="control-group">
+    <div class="controls">
+      <div class="dname1">
+        确认新密码:
+        <input type="text" id="confirmpwd">
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="control-group">
+    <div class="controls">
+    <a href="error.html" target="_blank" id="btn1"class="button button-rounded button-flat-caution button-large">修改</a>
+     </div>
+  </div>
+ 
+</form>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

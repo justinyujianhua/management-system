@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN" manifest="cache.manifest">
+  <head>
+    <title>人力资源系统管理界面</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/buttons.css" rel="stylesheet" media="screen">
+    <style type="text/css">
+ body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+        width: 674px;
+        height: 558px;
+        background:url(img/debg.png);
+      }  
+    textarea{
+      margin-left: 50px;
+      height: 260px;
+      width: 250px;
+    }
+    #departmentType{
+      margin-left: 9px;
+      margin-top: 20px;
+      width: 250px;
+    }
+    .form-horizontal{
+      background: url(img/imac1.png);
+      width: 802px;
+      height: 650px;
+    }
+    .dname{
+      margin-top: 20px;
+      color: white;
+      float: left;
+    }
+    #btn1{
+      display: block;
+      margin-left: 20px;
+      margin-top: -10px;
+      width: 120px;
+      text-decoration: none;
+      float: left;
+    }
+    .controls{
+      color: white;
+    }
+    .title{
+      color: white;
+      text-align: center;
+      padding-top: 3px;
+    }
+    </style>
+  </head>
+  <body>
+   <form class="form-horizontal">
+     <h4 class="title">部门类型管理</h4>
+  <div class="control-group">
+    <div class="controls">
+      <div class="dname">
+        部门管理名称
+      </div>
+      
+    <input type="text" id="departmentType" placeholder="Department Type ">
+    </input>
+    </div>
+  </div>
+  <div class="control-group">
+   <div class="controls">
+       备&nbsp&nbsp&nbsp注:<textarea type="textarea" id="remark" placeholder="remark">
+      </textarea>
+    </div>
+  </div>
+  <div class="control-group">
+    <div class="controls">
+    <a href="#" id="btn1"class="button button-rounded button-flat-caution button-large">添加新部门</a>
+     <a href="right-bumenchakan.html" id="btn1"class="button button-rounded button-flat-caution button-large">修改已有部门</a>
+     </div>
+  </div>
+ 
+</form>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
